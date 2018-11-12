@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+
+/*
+ * common
+ */
+.pc-none {
+	display: block;
+}
+.sp-none {
+	display: none;
+}
+.pc-br {
+	display: none;
+}
+.sp-br {
+	display: block;
+}
+
+/*
+ * header
+ */
+
+/*
+ * section-common
+ */
+.section-inner {
+   	padding: 50px 5%;
+}
+.heading {
+	font-size: 22px;
+}
+
+/*
+ * about
+ */
+.about-body {
+	flex-direction: column;
+	align-items: center;
+}
+.about-image {
+	width: 300px;
+}
+.about-text {
+	margin-top: 50px;
+	margin-left: 0;
+}
+
+/*
+ * spirit
+ */
+.spirit-body {
+	text-align: justify;
+}
+
+/*
+ * fixed-background-01
+ */
+.fixed-bg01 {
+	height: 300px;
+	background-attachment: scroll;
+}
+
+/*
+ * introduction
+ */
+.introduction-body {
+	flex-direction: column;
+}
+.intro-card {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.intro-card-image {
+	width: 70%;
+	display: block;
+    margin: 0 auto 30px;
+}
+.intro-card-text {
+	padding: 0;
+}
+
+/*
+ * meet
+ */
+.meet-body {
+	text-align: justify;
+}
+
+/*
+ * company
+ */
+.company-body {
+	flex-direction: column;
+}
+.company-image {
+	width: 300px;
+	display: block;
+	margin: 0 auto 30px;
+}
+
+/*
+ * concept
+ */
+.concept-body {
+	text-align: justify;
+}
+
+/*
+ * fixed-background-02
+ */
+.fixed-bg02 {
+	height: 300px;
+	background-attachment: scroll;
+}
+
+/*
+ * recruit
+ */
+.recruit-body {
+	flex-direction: column;
+	align-items: center;
+}
+.recruit-image {
+	width: 300px;
+}
+.recruit-text {
+	margin-top: 50px;
+	margin-left: 0;
+}
+
+/*
+ * information
+ */
+.info-text {
+	text-align: left;
+}
+
+/*
+ * footer
+ */
+.related-banner-list {
+	width: 310px;
+    margin: 0 auto 30px;
+}
+.related-banner {
+	width: 150px;
+}
+.related-banner-list li:not(:first-child) {
+	margin-left: 0;
+}
+.related-banner-list li:nth-child(even) {
+	margin-left: 10px;
+}
+
+
+
+}

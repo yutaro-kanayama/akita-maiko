@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+/*
+ * base
+ */
+body {
+    font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 
+    メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #ffffff;
+    color: #13191b;
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.pc-none {
+	display: none;
+}
+.sp-none {
+	display: block;
+}
+.pc-br {
+	display: block;
+}
+.sp-br {
+	display: none;
+}
+a:hover {
+	opacity: 0.5;
+}
+
+/*
+ * header
+ */
+.header {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+.global-nav {
+	
+}
+.global-nav ul {
+	display: flex;
+}
+.global-nav li:not(:first-child) {
+	border-left: 1px solid #ffffff;
+}
+.global-nav a {
+	display: block;
+	height: 36px;
+	padding: 0 15px;
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 0;
+}
+.oneline {
+	line-height: 36px;
+}
+.twolines {
+	line-height: 1.5;
+}
+.hamburger {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.hamburger-line {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+    margin-bottom: 9px;
+}
+
+/*
+ * main-visual
+ */
+.main-visual {
+	width: 100vw;
+	height: 100vh;
+	background-color: #A92326;
+	/* ロゴ中央揃え設定 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-logo {
+	width: 240px;
+}
+
+/*
+ * section-common
+ */
+.section-bg-brown {
+	background-image: url(../images/bg-brown.png);
+	background-color: #dddddd;
+}
+.section-inner {
+	max-width: 960px;
+    margin: 0 auto;
+   	padding: 50px 0 75px;
+}
+.section-header {
+	margin-bottom: 50px;
+	text-align: center;
+	line-height: 1.7;
+}
+.heading:before {
+	content: '';
+	display: block;
+	width: 60px;
+    height: 30px;
+	background-image: url(../images/title-icon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto 25px;
+}
+.heading {
+	color: #A92326;
+	font-size: 27px;
+}
+.sub-heading {
+	font-size: 16px;
+}
+
+/*
+ * about
+ */
+.about-body {
+	display: flex;
+	align-items: flex-start;
+}
+.about-image {
+	width: 360px;
+}
+.about-text {
+	text-align: justify;
+	margin-left: 40px;
+}
+
+/*
+ * spirit
+ */
+.spirit-body {
+	text-align: center;
+}
+
+/*
+ * contents
+ */
+.contents-list {
+	margin-bottom: 50px;
+}
+.contents-list li {
+	margin-bottom: 30px;
+}
+.contents-item {
+	display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.contents-icon {
+	height: 35px;
+}
+.contents-title {
+	color: #A92326;
+	font-size: 20px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.contact-title {
+	color: #A92326;
+	font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.contents-text {
+	text-align: justify;
+}
+
+/*
+ * fixed-background-01
+ */
+.fixed-bg01 {
+	height: 600px;
+    background: #ddd url(../images/bg-fixed01.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*
+ * introduction
+ */
+.introduction-body {
+	display: flex;
+}
+.intro-card {
+	width: 25%;
+	padding: 0 1%;
+}
+.intro-card-image {
+	width: 100%;
+}
+.intro-card-text {
+	text-align: justify;
+	padding: 20px 10px;
+}
+
+/*
+ * meet
+ */
+.meet-section {
+	background-color: #A92326;
+	color: #ffffff;
+}
+.meet-section .heading {
+	color: #ffffff;
+}
+.meet-section .heading:before {
+	background-image: url(../images/title-icon-white.png);
+}
+.meet-body {
+	text-align: center;
+}
+
+/*
+ * company
+ */
+.company-body {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row-reverse;
+}
+.company-image {
+	width: 360px;
+	margin-left: 40px;
+}
+.company-title {
+	color: #A92326;
+	font-size: 20px;
+	margin-bottom: 15px;
+	line-height: 1;
+}
+.company-text {
+	margin-bottom: 25px;
+}
+.company-detail {
+	text-align: left;
+}
+.company-detail td {
+	padding-left: 20px;
+}
+
+/*
+ * concept
+ */
+.concept-body {
+	text-align: center;
+}
+
+/*
+ * fixed-background-02
+ */
+.fixed-bg02 {
+	height: 600px;
+    background: #ddd url(../images/bg-fixed02.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*
+ * recruit
+ */
+.recruit-body {
+	display: flex;
+	align-items: flex-start;
+}
+.recruit-image {
+	width: 360px;
+}
+.recruit-text {
+	text-align: justify;
+	margin-left: 40px;
+}
+.recruit-title {
+	margin: 30px 0 20px;
+	color: #A92326;
+	font-size: 20px;
+	line-height: 1;
+}
+.recruit-notes {
+	font-size: 12px;
+	letter-spacing: 1px; /* 一行に収めるため */
+}
+
+/*
+ * information
+ */
+.info-body {
+	text-align: center;
+}
+.facebook-banner {
+	width: 139px;
+}
+.info-text {
+	margin-bottom: 30px;
+}
+
+/*
+ * floating-button
+ */
+.fixed-floating {
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+.floating-button {
+	width: 72px;
+}
+
+/*
+ * footer
+ */
+.footer {
+	background-color: #A92326;
+	text-align: center;
+}
+.backTop {
+	display: block;
+	margin-bottom: 25px;
+	color: #ffffff;
+    font-size: 20px;
+}
+.backTop-arrow {
+	width: 42px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.related-banner-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.related-banner-list li {
+	margin-bottom: 10px;
+}
+.related-banner-list li:not(:first-child) {
+	margin-left: 20px;
+}
+.related-banner {
+	width: 176px;
+}
+.logo-matsushita {
+	width: 100px;
+	display: block;
+	margin: 0 auto 20px;
+}
+.copyright {
+	color: #ffffff;
+}
+
+
